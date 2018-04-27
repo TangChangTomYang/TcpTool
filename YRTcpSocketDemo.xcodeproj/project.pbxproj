@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F4B869720917EE600BA70E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4B869620917EE600BA70E0 /* AppDelegate.m */; };
+		2F4B869F20917EE600BA70E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F4B869E20917EE600BA70E0 /* Assets.xcassets */; };
+		2F4B86A220917EE600BA70E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F4B86A020917EE600BA70E0 /* LaunchScreen.storyboard */; };
+		2F4B86A520917EE600BA70E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4B86A420917EE600BA70E0 /* main.m */; };
+		2F4B86B720917FD000BA70E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4B86B320917FD000BA70E0 /* ViewController.m */; };
+		2F4B86B820917FD000BA70E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F4B86B420917FD000BA70E0 /* Main.storyboard */; };
+		2F4B86BE2091806E00BA70E0 /* HostResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4B86BC2091806E00BA70E0 /* HostResolver.m */; };
+		2F4B86C42091828D00BA70E0 /* YRDomainTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4B86C32091828D00BA70E0 /* YRDomainTool.m */; };
+		2F5ABA6B2091A1C700728590 /* YRTcpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5ABA6A2091A1C700728590 /* YRTcpTool.m */; };
+		2F5ABA782091A28E00728590 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2F5ABA702091A28E00728590 /* LICENSE.txt */; };
+		2F5ABA792091A28E00728590 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 2F5ABA712091A28E00728590 /* README.markdown */; };
+		2F5ABA7A2091A28E00728590 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5ABA752091A28E00728590 /* GCDAsyncSocket.m */; };
+		2F5ABA7B2091A28E00728590 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5ABA772091A28E00728590 /* GCDAsyncUdpSocket.m */; };
+		2F5ABA812091A8E300728590 /* YRTcpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5ABA802091A8E300728590 /* YRTcpRequest.m */; };
+		2F5ABA902091D94300728590 /* YRTcpResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5ABA8F2091D94300728590 /* YRTcpResponse.m */; };
+		2FAED1D22092B2DA0046DF38 /* YRTcpConnect.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FAED1D12092B2DA0046DF38 /* YRTcpConnect.m */; };
+		2FAED1D52093121E0046DF38 /* YRParseDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FAED1D42093121E0046DF38 /* YRParseDataTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F4B869220917EE600BA70E0 /* YRTcpSocketDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YRTcpSocketDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F4B869520917EE600BA70E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F4B869620917EE600BA70E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F4B869E20917EE600BA70E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F4B86A120917EE600BA70E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F4B86A320917EE600BA70E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F4B86A420917EE600BA70E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F4B86B220917FD000BA70E0 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2F4B86B320917FD000BA70E0 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2F4B86B420917FD000BA70E0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2F4B86BC2091806E00BA70E0 /* HostResolver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HostResolver.m; sourceTree = "<group>"; };
+		2F4B86BD2091806E00BA70E0 /* HostResolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HostResolver.h; sourceTree = "<group>"; };
+		2F4B86C22091828D00BA70E0 /* YRDomainTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YRDomainTool.h; sourceTree = "<group>"; };
+		2F4B86C32091828D00BA70E0 /* YRDomainTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YRDomainTool.m; sourceTree = "<group>"; };
+		2F4B86C820918E5300BA70E0 /* TcpDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TcpDefine.h; sourceTree = "<group>"; };
+		2F4B86C920918E7E00BA70E0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2F5ABA692091A1C700728590 /* YRTcpTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YRTcpTool.h; sourceTree = "<group>"; };
+		2F5ABA6A2091A1C700728590 /* YRTcpTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YRTcpTool.m; sourceTree = "<group>"; };
+		2F5ABA702091A28E00728590 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		2F5ABA712091A28E00728590 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = "<group>"; };
+		2F5ABA742091A28E00728590 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		2F5ABA752091A28E00728590 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		2F5ABA762091A28E00728590 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		2F5ABA772091A28E00728590 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		2F5ABA7F2091A8E300728590 /* YRTcpRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YRTcpRequest.h; sourceTree = "<group>"; };
+		2F5ABA802091A8E300728590 /* YRTcpRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YRTcpRequest.m; sourceTree = "<group>"; };
+		2F5ABA8E2091D94300728590 /* YRTcpResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YRTcpResponse.h; sourceTree = "<group>"; };
+		2F5ABA8F2091D94300728590 /* YRTcpResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YRTcpResponse.m; sourceTree = "<group>"; };
+		2FAED1D02092B2DA0046DF38 /* YRTcpConnect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YRTcpConnect.h; sourceTree = "<group>"; };
+		2FAED1D12092B2DA0046DF38 /* YRTcpConnect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YRTcpConnect.m; sourceTree = "<group>"; };
+		2FAED1D32093121E0046DF38 /* YRParseDataTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YRParseDataTool.h; sourceTree = "<group>"; };
+		2FAED1D42093121E0046DF38 /* YRParseDataTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YRParseDataTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F4B868F20917EE600BA70E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F4B868920917EE600BA70E0 = {
+			isa = PBXGroup;
+			children = (
+				2F4B869420917EE600BA70E0 /* YRTcpSocketDemo */,
+				2F4B869320917EE600BA70E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F4B869320917EE600BA70E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F4B869220917EE600BA70E0 /* YRTcpSocketDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F4B869420917EE600BA70E0 /* YRTcpSocketDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2F4B869520917EE600BA70E0 /* AppDelegate.h */,
+				2F4B869620917EE600BA70E0 /* AppDelegate.m */,
+				2F4B86AB20917FD000BA70E0 /* Class */,
+				2F4B869E20917EE600BA70E0 /* Assets.xcassets */,
+				2F4B86A020917EE600BA70E0 /* LaunchScreen.storyboard */,
+				2F4B86A320917EE600BA70E0 /* Info.plist */,
+				2F4B86C920918E7E00BA70E0 /* PrefixHeader.pch */,
+				2F4B86A420917EE600BA70E0 /* main.m */,
+			);
+			path = YRTcpSocketDemo;
+			sourceTree = "<group>";
+		};
+		2F4B86AB20917FD000BA70E0 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				2F4B86AC20917FD000BA70E0 /* common */,
+				2F4B86B020917FD000BA70E0 /* Main */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		2F4B86AC20917FD000BA70E0 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				2F4B86BA2091802000BA70E0 /* Protocal */,
+				2F4B86B920917FF700BA70E0 /* Category */,
+				2F4B86AD20917FD000BA70E0 /* Define */,
+				2F4B86AE20917FD000BA70E0 /* Tool */,
+				2F4B86AF20917FD000BA70E0 /* Vender */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		2F4B86AD20917FD000BA70E0 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		2F4B86AE20917FD000BA70E0 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				2F4B86C820918E5300BA70E0 /* TcpDefine.h */,
+				2F4B86C720918E4600BA70E0 /* TcpTool */,
+				2F4B86BB2091805D00BA70E0 /* DomainTool */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		2F4B86AF20917FD000BA70E0 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				2F5ABA6F2091A28E00728590 /* CocoaAsyncSocket */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		2F4B86B020917FD000BA70E0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2F4B86B420917FD000BA70E0 /* Main.storyboard */,
+				2F4B86B120917FD000BA70E0 /* Controller */,
+				2F4B86B520917FD000BA70E0 /* mode */,
+				2F4B86B620917FD000BA70E0 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2F4B86B120917FD000BA70E0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2F4B86B220917FD000BA70E0 /* ViewController.h */,
+				2F4B86B320917FD000BA70E0 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2F4B86B520917FD000BA70E0 /* mode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = mode;
+			sourceTree = "<group>";
+		};
+		2F4B86B620917FD000BA70E0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2F4B86B920917FF700BA70E0 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		2F4B86BA2091802000BA70E0 /* Protocal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocal;
+			sourceTree = "<group>";
+		};
+		2F4B86BB2091805D00BA70E0 /* DomainTool */ = {
+			isa = PBXGroup;
+			children = (
+				2F4B86BD2091806E00BA70E0 /* HostResolver.h */,
+				2F4B86BC2091806E00BA70E0 /* HostResolver.m */,
+				2F4B86C22091828D00BA70E0 /* YRDomainTool.h */,
+				2F4B86C32091828D00BA70E0 /* YRDomainTool.m */,
+			);
+			path = DomainTool;
+			sourceTree = "<group>";
+		};
+		2F4B86C720918E4600BA70E0 /* TcpTool */ = {
+			isa = PBXGroup;
+			children = (
+				2FAED1D02092B2DA0046DF38 /* YRTcpConnect.h */,
+				2FAED1D12092B2DA0046DF38 /* YRTcpConnect.m */,
+				2F5ABA692091A1C700728590 /* YRTcpTool.h */,
+				2F5ABA6A2091A1C700728590 /* YRTcpTool.m */,
+				2F5ABA7F2091A8E300728590 /* YRTcpRequest.h */,
+				2F5ABA802091A8E300728590 /* YRTcpRequest.m */,
+				2F5ABA8E2091D94300728590 /* YRTcpResponse.h */,
+				2F5ABA8F2091D94300728590 /* YRTcpResponse.m */,
+				2FAED1D32093121E0046DF38 /* YRParseDataTool.h */,
+				2FAED1D42093121E0046DF38 /* YRParseDataTool.m */,
+			);
+			path = TcpTool;
+			sourceTree = "<group>";
+		};
+		2F5ABA6F2091A28E00728590 /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				2F5ABA702091A28E00728590 /* LICENSE.txt */,
+				2F5ABA712091A28E00728590 /* README.markdown */,
+				2F5ABA722091A28E00728590 /* Source */,
+			);
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		2F5ABA722091A28E00728590 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				2F5ABA732091A28E00728590 /* GCD */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		2F5ABA732091A28E00728590 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				2F5ABA742091A28E00728590 /* GCDAsyncSocket.h */,
+				2F5ABA752091A28E00728590 /* GCDAsyncSocket.m */,
+				2F5ABA762091A28E00728590 /* GCDAsyncUdpSocket.h */,
+				2F5ABA772091A28E00728590 /* GCDAsyncUdpSocket.m */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F4B869120917EE600BA70E0 /* YRTcpSocketDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F4B86A820917EE600BA70E0 /* Build configuration list for PBXNativeTarget "YRTcpSocketDemo" */;
+			buildPhases = (
+				2F4B868E20917EE600BA70E0 /* Sources */,
+				2F4B868F20917EE600BA70E0 /* Frameworks */,
+				2F4B869020917EE600BA70E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YRTcpSocketDemo;
+			productName = YRTcpSocketDemo;
+			productReference = 2F4B869220917EE600BA70E0 /* YRTcpSocketDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F4B868A20917EE600BA70E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = yangrui;
+				TargetAttributes = {
+					2F4B869120917EE600BA70E0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 2F4B868D20917EE600BA70E0 /* Build configuration list for PBXProject "YRTcpSocketDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F4B868920917EE600BA70E0;
+			productRefGroup = 2F4B869320917EE600BA70E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F4B869120917EE600BA70E0 /* YRTcpSocketDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F4B869020917EE600BA70E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5ABA782091A28E00728590 /* LICENSE.txt in Resources */,
+				2F5ABA792091A28E00728590 /* README.markdown in Resources */,
+				2F4B86A220917EE600BA70E0 /* LaunchScreen.storyboard in Resources */,
+				2F4B869F20917EE600BA70E0 /* Assets.xcassets in Resources */,
+				2F4B86B820917FD000BA70E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F4B868E20917EE600BA70E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5ABA7A2091A28E00728590 /* GCDAsyncSocket.m in Sources */,
+				2FAED1D22092B2DA0046DF38 /* YRTcpConnect.m in Sources */,
+				2FAED1D52093121E0046DF38 /* YRParseDataTool.m in Sources */,
+				2F5ABA902091D94300728590 /* YRTcpResponse.m in Sources */,
+				2F5ABA7B2091A28E00728590 /* GCDAsyncUdpSocket.m in Sources */,
+				2F4B86C42091828D00BA70E0 /* YRDomainTool.m in Sources */,
+				2F4B86B720917FD000BA70E0 /* ViewController.m in Sources */,
+				2F5ABA6B2091A1C700728590 /* YRTcpTool.m in Sources */,
+				2F4B86BE2091806E00BA70E0 /* HostResolver.m in Sources */,
+				2F4B86A520917EE600BA70E0 /* main.m in Sources */,
+				2F5ABA812091A8E300728590 /* YRTcpRequest.m in Sources */,
+				2F4B869720917EE600BA70E0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2F4B86A020917EE600BA70E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F4B86A120917EE600BA70E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F4B86A620917EE600BA70E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2F4B86A720917EE600BA70E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F4B86A920917EE600BA70E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = UM24Q5JH6X;
+				GCC_PREFIX_HEADER = /Users/yang/Desktop/YRTcpSocketDemo/YRTcpSocketDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = YRTcpSocketDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.360gobuylight.LETTIN3.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d4742443-66fb-40fb-8a67-749a040e1b87";
+				PROVISIONING_PROFILE_SPECIFIER = lettin3.0_dev1127;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F4B86AA20917EE600BA70E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = UM24Q5JH6X;
+				GCC_PREFIX_HEADER = /Users/yang/Desktop/YRTcpSocketDemo/YRTcpSocketDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = YRTcpSocketDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.360gobuylight.LETTIN3.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "31b1f6b7-57ef-4008-aefc-323119a9712d";
+				PROVISIONING_PROFILE_SPECIFIER = lettin3.0_hoc1127;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F4B868D20917EE600BA70E0 /* Build configuration list for PBXProject "YRTcpSocketDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F4B86A620917EE600BA70E0 /* Debug */,
+				2F4B86A720917EE600BA70E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F4B86A820917EE600BA70E0 /* Build configuration list for PBXNativeTarget "YRTcpSocketDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F4B86A920917EE600BA70E0 /* Debug */,
+				2F4B86AA20917EE600BA70E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F4B868A20917EE600BA70E0 /* Project object */;
+}
